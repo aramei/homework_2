@@ -1,0 +1,78 @@
+.main {
+	width: 80%;
+	margin: 0 auto;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.header p {
+	color: grey;
+	font-size: 20px;
+	margin: 10px;
+	text-shadow: 0.8px -0.5px 0.5px #a9a9a9;	
+}
+
+.header ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    background-color: #d4d4d4;
+    border-radius: 5px;
+}
+
+.header li {
+    display: inline;
+    border-right: 1px solid #bbb
+}
+
+.header a {
+	text-decoration: none;
+	color: #797979;
+	text-shadow: 0.8px -0.5px 0.5px #a9a9a9;
+}
+
+.header li:hover {
+	background-color: black;
+}
+
+.marketing {
+	text-align: center;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 30px;
+}
+
+.marketing button {
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: white;
+	background: green;
+	border: none;
+}
+
+.subheading {
+	column-count: 3;
+	font-size: 12px;
+}
+
+.subheading button {
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: white;
+	background: rgba(0, 77, 255, 0.81);
+	border: none;
+	font-size: 12px;
+}
+
+.subheading span {
+	color: red;
+}
+
+hr {
+
+}
+
+.footer {
+	font-size: 12px;
+	position: absolute;
+	bottom: 3px;
+}
