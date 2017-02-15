@@ -1,0 +1,91 @@
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+  	* {
+  		font-size: 115%;
+  	}
+
+	.main {
+	width: 95%;
+	margin: 0 auto;
+}
+
+	.header p {
+		color: grey;
+		font-size: 20px;
+		text-shadow: 0.8px -0.5px 0.5px #a9a9a9;	
+	}
+
+	.header li {
+		display: block;
+		background: #ddd;
+		padding: 1.5% 2%;
+		border-right: 0;
+		width: 90%;
+		color: grey;
+		text-align: center;
+	}
+
+	.header li:first-child {
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 0;
+		border-top-right-radius: 5px;
+
+	}
+
+	.header li:last-child {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
+
+	.header a {
+		text-decoration: none;
+		color: #797979;
+	}
+
+	.marketing {
+		text-align: center;
+		margin: 5px;
+		padding: 10px;
+	}
+
+	.marketing button {
+		border-radius: 5px;
+		padding: 10px 20px;
+		color: white;
+		background: green;
+		border: none;
+	}
+
+	.subheading {
+			display: block;
+	}
+
+	.subheading button {
+		border-radius: 5px;
+		padding: 10px 20px;
+		color: white;
+		background: rgba(0, 77, 255, 0.81);
+		border: none;
+	}
+
+	.subheading span {
+		color: red;
+	}
+
+	.sub {
+		display: block;
+		width: 100%;
+		vertical-align: top;
+		padding: 0;
+		margin: 0;
+	}
+
+	.footer {
+		position: relative;
+		bottom: 3px;
+	}
+}

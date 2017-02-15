@@ -1,7 +1,6 @@
 .main {
 	width: 80%;
 	margin: 0 auto;
-	font-family: "Segoe UI",Arial,sans-serif;
 }
 
 .header p {
@@ -11,23 +10,29 @@
 	text-shadow: 0.8px -0.5px 0.5px #a9a9a9;	
 }
 
-.header ul {
-	list-style-type: none;
-    margin: 0;
-    padding: 15px;
-    background-color: #d4d4d4;
-    border-radius: 5px;
+.header li {
+	display: inline-block;
+	background: #ddd;
+	padding: 1.5% 2%;
+	border-right: 1px solid #bfbfbf;
+	width: calc(100% / 6 - 5%);
+	color: grey;
 }
 
-.header li {
-    display: inline;
-    border-right: 1px solid #bbb
+.header li:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.header li:last-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-right: 0;
 }
 
 .header a {
 	text-decoration: none;
 	color: #797979;
-	text-shadow: 0.8px -0.5px 0.5px #a9a9a9;
 }
 
 .header li:hover {
@@ -36,7 +41,6 @@
 
 .marketing {
 	text-align: center;
-	border-radius: 10px;
 	margin: 10px;
 	padding: 30px;
 }
@@ -50,8 +54,7 @@
 }
 
 .subheading {
-	column-count: 3;
-	font-size: 12px;
+	display: block;
 }
 
 .subheading button {
@@ -60,19 +63,22 @@
 	color: white;
 	background: rgba(0, 77, 255, 0.81);
 	border: none;
-	font-size: 12px;
 }
 
 .subheading span {
 	color: red;
 }
 
-hr {
-
+.sub {
+	display: inline-block;
+	width: 29%;
+	vertical-align: top;
+	padding: 20px 0;
+	margin: 0 20px;
 }
 
 .footer {
 	font-size: 12px;
-	position: absolute;
+	position: relative;
 	bottom: 3px;
 }
