@@ -53,8 +53,8 @@
 	}
 
 	.marketing button {
-		border-radius: 5px;
-		padding: 10px 20px;
+		border-radius: 10px;
+		padding: 20px 30px;
 		color: white;
 		background: green;
 		border: none;
@@ -65,11 +65,12 @@
 	}
 
 	.subheading button {
-		border-radius: 5px;
-		padding: 10px 20px;
+		border-radius: 8px;
+		padding: 15px 20px;
 		color: white;
 		background: rgba(0, 77, 255, 0.81);
 		border: none;
+		width: 100%;
 	}
 
 	.subheading span {
@@ -84,8 +85,13 @@
 		margin: 0;
 	}
 
+	hr {
+		display: none;
+	}
+
 	.footer {
 		position: relative;
 		bottom: 3px;
+		padding-top: 25px;
 	}
 }
