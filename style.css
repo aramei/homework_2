@@ -17,6 +17,7 @@
 	border-right: 1px solid #bfbfbf;
 	width: calc(100% / 6 - 5%);
 	color: grey;
+	text-align: center;
 }
 
 .header li:first-child {
@@ -36,7 +37,7 @@
 }
 
 .header li:hover {
-	background-color: black;
+	background-color: #bfbfbf;
 }
 
 .marketing {
